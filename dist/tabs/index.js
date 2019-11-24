@@ -5,7 +5,7 @@ VantComponent({
     mixins: [touch],
     classes: ['nav-class', 'tab-class', 'tab-active-class', 'line-class'],
     relation: {
-        name: 'tab',
+        name: 'tabs',
         type: 'descendant',
         linked(target) {
             target.index = this.children.length;
